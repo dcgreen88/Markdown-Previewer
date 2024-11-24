@@ -11,7 +11,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="App flex-col justify-items-center bg-cyan-200 p-[20px]">
       <Editor initialValue={text} onChange={onMarkdownChange} />
       <Preview output={text} />
     </div>
